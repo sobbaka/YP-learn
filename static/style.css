@@ -1,0 +1,93 @@
+:root {
+  --bg-black: #1f1f1f;
+  --bg-grey: #f2f2f2;
+  --blue: #2f80ed;
+  --blue-hover: #689fe6;
+  --black: #000;
+}
+
+.body {
+  font-family: "Helvetica", "Arial", sans-serif;
+}
+
+.page {
+  min-width: 1100px;
+  max-width: 1600px;
+  margin: 0 auto;
+}
+
+.logo {
+  width: 228px;
+  height: 32px;
+}
+
+.header {
+  height: 100vh;
+  position: relative;
+  min-height: 600px;
+  max-height: 756px;
+  background-color: var(--bg-grey);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  overflow: hidden;
+}
+
+.header__background-block {
+  position: absolute;
+  width: 568px;
+  height: 568px;
+  background-color: var(--blue);
+  top: 64px;
+  right: 0;
+}
+
+.header__main-illustration {
+  width: 765px;
+  height: 608px;
+  position: absolute;
+  bottom: 0;
+  right: 0;
+}
+
+.header__logo {
+  position: absolute;
+  top: 30px;
+  left: 64px;
+}
+
+.title {}
+
+.header__title {
+  font-size: 102px;
+  font-weight: 600;
+  line-height: 96px;
+  max-width: 730px;
+  margin-left: 64px;
+}
+
+.header__subtitle {
+  font-size: 18px;
+  font-weight: normal;
+  line-height: 25px;
+  max-width: 388px;
+  position: absolute;
+  bottom: 30px;
+  left: 64px;
+}
+
+.link {
+  color: var(--blue);
+  text-decoration: none;
+}
+
+.header__link {}
+
+.header__link::after {
+  content: "→";
+  padding-left: 5px;
+}
+
+.link:hover {
+  color: var(--blue-hover);
+}
