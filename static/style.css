@@ -146,7 +146,7 @@ a {
 }
 
 .numbers {
-  padding-bottom: 100px;
+  padding: 100px 0;
   display: flex;
   flex-direction: column;
   align-items: center;
