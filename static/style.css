@@ -1,5 +1,7 @@
 @import url("/static/block/two-columns/_theme_grey/two-columns_theme_grey.css");
 @import url("/static/block/two-columns/two-columns.css");
+@import url("/static/block/logo-zone/logo-zone.css");
+@import url("/static/block/resources/resources.css");
 
 :root {
   --bg-black: #1f1f1f;
