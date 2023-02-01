@@ -1,0 +1,24 @@
+.book {
+  padding-top: 68px;
+  position: relative;
+  min-height: 610px;
+}
+
+.book__pic {
+  width: 620px;
+  position: absolute;
+}
+
+.book__link {
+  position: absolute;
+  font-size: 36px;
+  line-height: 51px;
+  color: var(--blue);
+  top: 57px;
+  left: 668px;
+}
+
+.book__link::after {
+  content: "→";
+  padding-left: 10px;
+}

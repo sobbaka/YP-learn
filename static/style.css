@@ -2,6 +2,8 @@
 @import url("/static/block/two-columns/two-columns.css");
 @import url("/static/block/logo-zone/logo-zone.css");
 @import url("/static/block/resources/resources.css");
+@import url("/static/block/khan/khan.css");
+@import url("/static/block/book/book.css");
 
 :root {
   --bg-black: #1f1f1f;
